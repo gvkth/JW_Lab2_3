@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1477237-6630-4d1f-82b6-d094f3c42b96" name="Changes" comment="End Lab2.2" />
+    <list default="true" id="a1477237-6630-4d1f-82b6-d094f3c42b96" name="Changes" comment="Add lib Spring">
+      <change afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +39,7 @@
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="39bbe939-cefb-43cf-a0ff-8e734ae0d46d" />
-        <option name="url" value="https://github.com/gvkth/JW_Lab2_2" />
+        <option name="url" value="https://github.com/gvkth/JW_Lab2_3" />
       </UrlAndAccount>
     </option>
   </component>
@@ -54,25 +58,13 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/FUNIX/JAVA_WEB/Labs/Lab2_3&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/FUNIX/JAVA_WEB/Labs/Lab2_3/lib&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.36823934&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Lab2_2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Lab2_2" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -103,7 +95,28 @@
       <option name="project" value="LOCAL" />
       <updated>1682757163542</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Start Lab2.3">
+      <created>1682784572913</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682784572913</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Start Lab2.3">
+      <created>1682784653255</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682784653255</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add lib Spring">
+      <created>1682785551267</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682785551268</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +134,8 @@
     <MESSAGE value="Done Lab 2.1" />
     <MESSAGE value="Begin Lab2.2" />
     <MESSAGE value="End Lab2.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="End Lab2.2" />
+    <MESSAGE value="Start Lab2.3" />
+    <MESSAGE value="Add lib Spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add lib Spring" />
   </component>
 </project>

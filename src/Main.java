@@ -1,12 +1,18 @@
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 public class Main {
     public static void main(String[] args) {
-        /*BaseballCoach theCoach = new BaseballCoach();
-        System.out.println(theCoach.getDailyWorkout());*/
+        //load the spring configuration file
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        //Coach theCoach = new BaseballCoach();
-        Coach theCoach = new TrackCoach();
+        //retrieve bean from spring container
+        Coach theCoach = context.getBean("myCoach",Coach.class);
+        String messageFromTheCoach = theCoach.getDailyWorkout();
+        System.out.println(messageFromTheCoach);
 
-        //use the object
-        System.out.println(theCoach.getDailyWorkout());
+        Coach theSecondCoach = context.getBean("myCoach2",Coach.class);
+        System.out.println(theSecondCoach.getDailyWorkout());
+        context.close();
+
     }
 }
